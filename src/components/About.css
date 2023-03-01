@@ -1,0 +1,19 @@
+.About{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: left;
+    
+}
+.Bio-Container{
+    text-align: left;
+    width: 60vw;
+    font-size: 40px;
+    margin: 300px 60px;
+    color: #fff;
+}
+.Bio-Container>p{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
