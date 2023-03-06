@@ -5,13 +5,14 @@ export default function Projects() {
       name: 'Acctble.',
       technology: 'React, Node, Express, MongoDB',
       description: 'A social media app for sharing self improvements anonymously.',
-      image: 'https://via.placeholder.com/150',
+      image: "./acctble.png",
       link: 'https://google.com'
     },
     {
-      name: 'Project 2',
-      description: 'This is a project',
-      image: 'https://via.placeholder.com/150',
+      name: 'Wordle Clone',
+      description: 'A clone of the popular word game.',
+      technology: 'React, Typescript',
+      image: './acctble.png',
       link: 'https://google.com'
     }]
   return (
@@ -19,10 +20,14 @@ export default function Projects() {
         {projects.map((project) => {
           return (
             <div className="Project">
-              <h3>{project.name}</h3>
-              <img src={project.image} alt={project.name}/>
-              <p>{project.technology}</p>
-              <p>{project.description}</p>
+              <div className="img-container">
+              <img src={require("./acctble.png")} alt={project.name}/>
+              </div>
+              <div className="text-container">
+              <h2>{project.name}</h2>
+              <p>Tools: {project.technology}</p>
+              <p>{project.description} made with {project.technology}</p>
+              </div>
               </div>
           )
         })}
