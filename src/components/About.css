@@ -3,6 +3,7 @@
     background-color: black;
     display: flex;
     justify-content: left;
+    align-items: center;
     
 }
 .Bio-Container{

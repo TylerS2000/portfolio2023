@@ -5,32 +5,97 @@
     height: 100%;
     background-color: #f5f5f5;
     padding: 0 10px;
-    
+    z-index: -3;
 }
 .Project{
+    position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: left;
     text-align: left;
-    width: 60vw;
-    height: 100%;
+    width: 70vw;
+    height: 500px;
     padding: 0 10px;
-    border: 1px solid black;
     margin: 20px;
+    color: white;
+    z-index: 1;
+    margin-bottom: 2vh;
+    border-bottom: 1px black solid;
+    
 }
 .img-container{
-    height: 40vh;
-    width: 10vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: visible
+    overflow: visible;
+    position: absolute;
+    left: 0;
+    width: 40vw;
+    z-index: -1;
 }
 img{
-   max-width: 100%;
-    max-height: 100%;
+    max-width: 100%;
+    border-radius: 7px;
 }
 .text-container{
-    margin-left: 10px;
+    text-align: right;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 50px;
+    right: 60px;
+    width: 47%;
+    padding: 20px;
+    border-radius: 6px;
+    color: black;
+}
+.description{
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #fff;
+    background-color: black;
+    margin: 0;
+    margin-bottom: 13.5%;
+}
+.title{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.text-container2{
+    text-align: left;
+    position: absolute;
+    margin-top: 20px;
+    left: 0;
+    width: 47%;
+    padding: 20px;
+    border-radius: 6px;
+    color: black;
+}
+.img-container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+    position: absolute;
+    right: 0;
+    width: 40vw;
+    z-index: -1;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    overflow: visible;
+    position: absolute;
+    right: 17px;
+    bottom: 3.5vw;
+    width: 3.5vw;
+    z-index: -1;
+}
+.logo{
+   max-width: 50%;
+   margin: 5px;
 }
