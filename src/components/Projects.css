@@ -21,3 +21,9 @@ a{
     border-bottom: 2px dotted #000000;
     color: black;
 }
+@media (max-width: 768px) {
+    .project-container{
+        flex-direction: column;
+    }
+}
+    
