@@ -1,112 +1,23 @@
 .Projects{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
     background-color: #f5f5f5;
-    padding: 0 10px;
-    z-index: -3;
-}
-.Project{
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: left;
-    text-align: left;
-    width: 70vw;
-    height: 500px;
-    padding: 0 10px;
-    margin: 20px;
-    color: white;
-    z-index: 1;
-    margin-bottom: 2vh;
-    border-bottom: 1px black solid;
-    
-}
-.img-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: visible;
-    position: absolute;
-    left: 0;
-    width: 40vw;
-    z-index: -1;
-}
-img{
-    max-width: 100%;
-    border-radius: 7px;
-}
-.text-container{
-    text-align: right;
-    position: absolute;
-    margin-top: 20px;
-    margin-left: 50px;
-    right: 60px;
-    width: 47%;
-    padding: 20px;
-    border-radius: 6px;
-    color: black;
-    font-size: 2.2rem;
-}
-.description{
-    padding: 10px;
-    border-radius: 7px;
-    font-size: 1.6rem;
-    font-weight: 400;
-    color: #fff;
-    background-color: black;
-    margin: 0;
-    margin-bottom: 13.5%;
-}
-.title{
-    font-weight: 500;
 }
 
-.text-container2{
+.project-container{
+    width:100%;
+    display: flex;
+    align-items: center;
     text-align: left;
-    position: absolute;
-    margin-top: 20px;
-    left: 0;
-    width: 47%;
-    padding: 20px;
-    border-radius: 6px;
+    margin-top: 10px;
+}
+img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 7px;
+}
+
+a{
+    text-decoration: none;
+    border-bottom: 2px dotted #000000;
     color: black;
-}
-.img-container2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: visible;
-    position: absolute;
-    right: 0;
-    width: 40vw;
-    z-index: -1;
-}
-.logo-container{
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    overflow: visible;
-    position: absolute;
-    right: 17px;
-    bottom: 3vw;
-    width: 3.5vw;
-    z-index: -1;
-}
-.logo-container2{
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    overflow: visible;
-    position: absolute;
-    left: 32px;
-    bottom: 3vw;
-    width: 3.5vw;
-    z-index: -1;
-}
-.logo{
-   max-width: 50%;
-   margin: 5px;
 }
