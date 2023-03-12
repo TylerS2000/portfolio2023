@@ -48,11 +48,12 @@ img{
     padding: 20px;
     border-radius: 6px;
     color: black;
+    font-size: 2.2rem;
 }
 .description{
     padding: 10px;
     border-radius: 7px;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-weight: 400;
     color: #fff;
     background-color: black;
@@ -60,7 +61,6 @@ img{
     margin-bottom: 13.5%;
 }
 .title{
-    font-size: 45px;
     font-weight: 500;
 }
 
@@ -91,7 +91,18 @@ img{
     overflow: visible;
     position: absolute;
     right: 17px;
-    bottom: 3.5vw;
+    bottom: 3vw;
+    width: 3.5vw;
+    z-index: -1;
+}
+.logo-container2{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    overflow: visible;
+    position: absolute;
+    left: 32px;
+    bottom: 3vw;
     width: 3.5vw;
     z-index: -1;
 }

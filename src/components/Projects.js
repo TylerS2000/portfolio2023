@@ -20,20 +20,21 @@ export default function Projects() {
   return (
     <div className="Projects">
       <h1 className="title">My Work</h1>
+        <div className="container">
         {projects.map((project) => {
           return (
-            <div className="Project">
-              <div className={"img-container"+project.layout}>
+            <div className="Project row">
+              <div className={"img-container"+project.layout+" seven columns"}>
               <img src={require("./acctble.png")} alt={project.name} />
               </div>
            
-              <div className={"text-container"+project.layout}>
+              <div className={"text-container"+project.layout+" six columns"}>
               <h2>{project.name}</h2>
               <div className="description">
               <p>Tools: {project.technology}</p>
               <p>{project.description} made with {project.technology}</p>
               </div>
-              <div className="logo-container">
+              <div className={`logo-container`+project.layout}>
               <img src={require("./github.png")} alt={project.name} className="logo" />
               <img src={require("./link.png")} alt={project.name} className="logo"/>
               </div>
@@ -41,6 +42,7 @@ export default function Projects() {
               </div>
           )
         })}
+        </div>
     </div>
   );
 }
