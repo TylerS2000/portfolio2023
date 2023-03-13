@@ -45,9 +45,8 @@ export default function Projects() {
               <div className="project-container">
               <div className="projectInfo six columns">
                 <h4><a href={project.link} style={{color:"black"}}>{project.name}</a></h4>
-                <p>{project.description}</p>
                 <p>{project.technology}</p>
-               
+                <p>{project.description}</p>
               </div>
               <div className="projectImage six columns">
                 <img src={project.image} alt="project" />
