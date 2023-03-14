@@ -48,8 +48,7 @@ export default function Projects() {
                 <p>{project.technology}</p>
                 <p>{project.description}</p>
               </div>
-              <div className="projectImage six columns">
-                <img src={project.image} alt="project" />
+              <div className="project-img six columns">
               </div>
               </div>
               </div>
