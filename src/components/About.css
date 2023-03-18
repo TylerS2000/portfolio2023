@@ -4,15 +4,28 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    
+    padding-left: 35px;
 }
 .Bio-Container{
     text-align: left;
     width: 50vw;
-    margin: 300px 60px;
     color: #fff;
 }
 .Bio-Container>p{
     font-size: 2.2rem;
     font-weight: 500;
+    margin: 0px;
+}
+
+@media (max-width: 768px) {
+    .Bio-Container{
+        text-align: left;
+        width: 90vw;
+        color: #fff;
+    }
+    .Bio-Container>p{
+        font-size: 2.2rem;
+        font-weight: 500;
+        margin: 0px;
+    }
 }

@@ -4,7 +4,7 @@ export default function About(){
         <div className="About">
         <div className="Bio-Container">
         <h3>Hello! My name is Tyler.</h3>
-        <p>I am a full-stack web developer with a background in the arts. I have a passion for creating and building things, and I love to learn new things. I am currently working on a few projects, and I am always looking for new opportunities to learn and grow as a developer.</p>
+        <p>I'm a skilled software developer with expertise in TypeScript, JavaScript, React, Node.js, and MongoDB. I have several years of experience building web applications and specialize in frontend and backend development. Let's build something amazing together!</p>
         </div>
         </div>
     );
