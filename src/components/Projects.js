@@ -9,7 +9,7 @@ export default function Projects() {
       description: 'A social media app for sharing self improvements anonymously.',
       image: acctble,
       link: 'https://google.com',
-      layout:""
+      layout: ""
     },
     {
       name: 'Wordle Clone',
@@ -17,7 +17,7 @@ export default function Projects() {
       technology: 'React, Typescript',
       image: wordle,
       link: 'https://google.com',
-      layout:"2"
+      layout: "2"
     },
     {
       name: 'Wordle Clone',
@@ -25,7 +25,7 @@ export default function Projects() {
       technology: 'React, Typescript',
       image: wordle,
       link: 'https://google.com',
-      layout:"2"
+      layout: "2"
     },
     {
       name: 'Wordle Clone',
@@ -33,29 +33,29 @@ export default function Projects() {
       technology: 'React, Typescript',
       image: wordle,
       link: 'https://google.com',
-      layout:"2"
+      layout: "2"
     }]
   return (
     <div className="Projects">
       <div className="container">
         <div>
-        {projects.map((project) => {
-          return (
-            <div className= "row">
-              <div className="project-container">
-              <div className="projectInfo six columns">
-                <h4><a href={project.link} style={{color:"black"}}>{project.name}</a></h4>
-                <p>{project.technology}</p>
-                <p>{project.description}</p>
+          {projects.map((project) => {
+            return (
+              <div className="row">
+                <div className="project-container">
+                  <div className="projectInfo six columns">
+                    <h4><a href={project.link} style={{ color: "black" }}>{project.name}</a></h4>
+                    <p>{project.technology}</p>
+                    <p>{project.description}</p>
+                  </div>
+                  <div className="project-img six columns">
+                  </div>
+                </div>
               </div>
-              <div className="project-img six columns">
-              </div>
-              </div>
-              </div>
-          );
-        })}
+            );
+          })}
         </div>
-        </div>
+      </div>
     </div>
   );
 }
