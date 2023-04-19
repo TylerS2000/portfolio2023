@@ -1,13 +1,14 @@
 import "./Projects.css";
 import acctble from "./acctble.png";
 import wordle from "./wordle.png";
+import phone from "./acctble-phone.png"
 export default function Projects() {
   const projects = [
     {
       name: 'Acctble.',
       technology: 'React, Node, Express, MongoDB',
       description: 'A social media app for sharing self improvements anonymously.',
-      image: acctble,
+      image: phone,
       link: 'https://google.com',
       layout: ""
     },
@@ -49,6 +50,7 @@ export default function Projects() {
                     <p>{project.description}</p>
                   </div>
                   <div className="project-img six columns">
+                    <img className="image"src={project.image} alt="project" />
                   </div>
                 </div>
               </div>

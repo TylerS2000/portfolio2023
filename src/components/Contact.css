@@ -1,9 +1,24 @@
 .Contact{
     display: flex;
-    height: 30vh;;
+    height: 50vh;
     padding: 20px;
     color: white;
     flex-direction: column;
     text-align: left;
+    align-items: center;
 }
-
+.contact-small{
+    background-color: black;
+    width: 300px;
+}
+.contact-big{
+    color: black;
+    background-color: black;
+    width: 900px;
+    color: white;
+    resize: none;
+}
+.contact-submit{
+    color: white;
+    display: flex;
+}
