@@ -1,16 +1,17 @@
 import "./Projects.css";
-import acctble from "./acctble.png";
 import wordle from "./wordle.png";
 import phone from "./acctble-phone.png"
+import engineer from "./engineer.png"
+import mobile from "./mobile.png"
+import dietetic from "./dietetic.png"
 export default function Projects() {
   const projects = [
     {
       name: 'Acctble.',
-      technology: 'React, Node, Express, MongoDB',
+      technology: 'React, Javascript, Node, Express, MongoDB',
       description: 'A social media app for sharing self improvements anonymously.',
       image: phone,
-      link: 'https://google.com',
-      layout: ""
+      link: 'https://google.com'
     },
     {
       name: 'Wordle Clone',
@@ -18,24 +19,30 @@ export default function Projects() {
       technology: 'React, Typescript',
       image: wordle,
       link: 'https://google.com',
-      layout: "2"
     },
     {
-      name: 'Wordle Clone',
-      description: 'A clone of the popular word game.',
-      technology: 'React, Typescript',
-      image: wordle,
-      link: 'https://google.com',
-      layout: "2"
+      name:"Engineering Calculator",
+      description:"An instant conversion calculator commisioned by mechanical engineer.",
+      technology: "React, Javascript",
+      image:engineer,
+      link:"https://conversion-calculator-flax.vercel.app/",
+
     },
     {
-      name: 'Wordle Clone',
-      description: 'A clone of the popular word game.',
-      technology: 'React, Typescript',
-      image: wordle,
-      link: 'https://google.com',
-      layout: "2"
-    }]
+      name: "Le Cook",
+      description:"An app that uses ingredients the user already has to find recipes. Made to reduce food waste and save money. Runner-up for best design at the RevolutionUC hackathon",
+      technology:"React Native, Javascript",
+      image:mobile, 
+      link:"https://devpost.com/software/le-cook"
+    },
+    {
+      name:"Dietitian's Calculator",
+      description:"A calculator to determine nutritional needs based off of height and weight. Saves a dietitan 15 minutes per day and works well to train new hires on nutritional needs.",
+      technology:"Javascript, HTML, CSS",
+      image:dietetic,
+      link:"dietetic.netlify.app"
+    }
+    ]
   return (
     <div className="Projects">
       <div className="container">
