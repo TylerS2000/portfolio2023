@@ -4,6 +4,7 @@ import phone from "./acctble-phone.png"
 import engineer from "./engineer.png"
 import mobile from "./mobile.png"
 import dietetic from "./dietetic.png"
+import text from "./text.png"
 export default function Projects() {
   const projects = [
     {
@@ -41,6 +42,13 @@ export default function Projects() {
       technology:"Javascript, HTML, CSS",
       image:dietetic,
       link:"dietetic.netlify.app"
+    },
+    {
+      name:"Text Journal",
+      description:"Journal daily through texting.",
+      technology:"Node.js, Javascript, Twilio API, Notion API",
+      image:text
+
     }
     ]
   return (
