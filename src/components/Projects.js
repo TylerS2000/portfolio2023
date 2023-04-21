@@ -9,7 +9,7 @@ export default function Projects() {
   const projects = [
     {
       name: 'Acctble.',
-      technology: 'React, Javascript, Node, Express, MongoDB',
+      technology: 'React, Javascript, Node, Express, MongoDB, HTML, CSS',
       description: 'A social media app for sharing self improvements anonymously.',
       image: phone,
       link: 'https://acctbles.fly.dev/'
@@ -17,14 +17,14 @@ export default function Projects() {
     {
       name: 'Wordle Clone',
       description: 'A clone of the popular word game.',
-      technology: 'React, Typescript',
+      technology: 'React, Typescript, HTML, CSS',
       image: wordle,
       link: 'https://wordletsxclone.netlify.app/',
     },
     {
       name:"Engineering Calculator",
       description:"An instant conversion calculator commisioned by mechanical engineer.",
-      technology: "React, Javascript",
+      technology: "React, Javascript, HTML, CSS",
       image:engineer,
       link:"https://conversion-calculator-flax.vercel.app/",
 
@@ -32,7 +32,7 @@ export default function Projects() {
     {
       name: "Le Cook",
       description:"An app that uses ingredients the user already has to find recipes. Made to reduce food waste and save money. Runner-up for best design at the RevolutionUC hackathon",
-      technology:"React Native, Javascript",
+      technology:"React Native, Javascript, CSS",
       image:mobile, 
       link:"https://devpost.com/software/le-cook"
     },
@@ -45,7 +45,7 @@ export default function Projects() {
     },
     {
       name:"Text Journal",
-      description:"Journal daily through texting.",
+      description:"Journal daily through texting. Journal entries are stored under a notion database in the user's account.",
       technology:"Node.js, Javascript, Twilio API, Notion API",
       image:text
 
