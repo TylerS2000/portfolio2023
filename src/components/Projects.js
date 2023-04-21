@@ -41,14 +41,14 @@ export default function Projects() {
       description:"A calculator to determine nutritional needs based off of height and weight. Saves a dietitan 15 minutes per day and works well to train new hires on nutritional needs.",
       technology:"Javascript, HTML, CSS",
       image:dietetic,
-      link:"dietetic.netlify.app"
+      link:"https://dietetic.netlify.app"
     },
     {
       name:"Text Journal",
       description:"Journal daily through texting. Journal entries are stored under a notion database in the user's account.",
       technology:"Node.js, Javascript, Twilio API, Notion API",
-      image:text
-
+      image:text,
+      link:"https://github.com/TylerS2000/text-journal"
     }
     ]
   return (

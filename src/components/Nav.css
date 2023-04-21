@@ -20,3 +20,59 @@
     color: #000;
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    
+
+.hamburger{
+    display: block;
+}
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 2px;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+/* Fade out the second bar */
+.change .bar2 {opacity: 0;}
+
+/* Rotate last bar */
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+.Nav>h3{
+    display: none;
+}
+.nav-pop{
+    position:fixed;
+    bottom:0;
+    left:0;
+    top: 60px;
+    width:100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.5);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+} 
+.nav-pop-inner{
+    width:80%;
+    height: auto;
+    background-color:#fff;
+    border-radius:10px;
+    padding:20px;
+    position:relative;
+    bottom: 80px;
+}
+.nav-pop-inner h2{
+    font-size: 40px;
+    margin: 18px;
+}
+}
