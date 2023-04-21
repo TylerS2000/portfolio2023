@@ -12,14 +12,14 @@ export default function Projects() {
       technology: 'React, Javascript, Node, Express, MongoDB',
       description: 'A social media app for sharing self improvements anonymously.',
       image: phone,
-      link: 'https://google.com'
+      link: 'https://acctbles.fly.dev/'
     },
     {
       name: 'Wordle Clone',
       description: 'A clone of the popular word game.',
       technology: 'React, Typescript',
       image: wordle,
-      link: 'https://google.com',
+      link: 'https://wordletsxclone.netlify.app/',
     },
     {
       name:"Engineering Calculator",
