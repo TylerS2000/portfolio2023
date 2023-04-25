@@ -10,7 +10,7 @@ export default function Projects() {
     {
       name: 'Acctble.',
       technology: 'React, Javascript, Node, Express, MongoDB, HTML, CSS',
-      description: 'A social media app for sharing self improvements anonymously.',
+      description: 'A social media app for sharing goals and self improvement.',
       image: phone,
       link: 'https://acctbles.fly.dev/'
     },
@@ -23,7 +23,7 @@ export default function Projects() {
     },
     {
       name:"Engineering Calculator",
-      description:"An instant conversion calculator commisioned by mechanical engineer.",
+      description:"An instant conversion calculator commisioned by a mechanical engineer.",
       technology: "React, Javascript, HTML, CSS",
       image:engineer,
       link:"https://conversion-calculator-flax.vercel.app/",
